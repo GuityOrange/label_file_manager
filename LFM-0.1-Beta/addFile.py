@@ -65,7 +65,7 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Form"))
+        Form.setWindowTitle(_translate("Form", "标签文件管理-FLM-0.1-Beta"))
         self.label_treeWidget.headerItem().setText(0, _translate("Form", "标签树"))
         self.add_pushButton.setText(_translate("Form", "添加至仓库"))
         self.label_pushButton.setText(_translate("Form", "添加标签"))
